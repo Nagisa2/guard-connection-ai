@@ -1,0 +1,19 @@
+sampling_rate: 125
+
+window:
+  seconds: 10
+  overlap: 0.5
+
+stft:
+  n_fft: 256
+  hop_length: 32
+  win_length: 128
+  window: hann
+
+representation:
+  magnitude: true
+  power: false
+  log_transform: true
+
+normalization:
+  type: per_sample
