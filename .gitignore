@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/*
+!data/README.md
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# MLflow
+mlruns/
+
+# Experiment outputs
+checkpoints/
+runs/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem

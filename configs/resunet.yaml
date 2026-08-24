@@ -1,0 +1,30 @@
+experiment:
+  name: resunet_attention_v1
+  seed: 42
+
+data:
+  sample_rate: 125
+  window_seconds: 10
+  overlap: 0.5
+
+stft:
+  n_fft: 256
+  hop_length: 64
+  win_length: 256
+
+model:
+  name: resunet_attention
+  in_channels: 1
+  out_channels: 1
+  base_channels: 32
+
+training:
+  batch_size: 32
+  epochs: 100
+  learning_rate: 0.0002
+  num_workers: 2
+
+loss:
+  l1_weight: 1.0
+  ssim_weight: 0.0
+  frequency_weight: 0.0
