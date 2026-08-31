@@ -1,20 +1,27 @@
-# Dataset
+# Data Structure
 
-This directory is reserved for local dataset files.
+## Dataset
 
-The BIDMC dataset is not included in this repository.
-
-## Expected data
-
-- BIDMC PPG
-- BIDMC ECG
-- Subject IDs
+- Dataset: BIDMC
+- Subjects: 53
 - Sampling rate: 125 Hz
+- Input: PPG
+- Target: ECG
+
+## Segmentation
+
 - Window length: 10 seconds
-- Window overlap: 50%
+- Samples per window: 1250
+- Overlap: 50%
+- Hop length: 5 seconds
+- Samples per hop: 625
 
-## Data split
+## Data Split
 
-Dataset splitting must be performed at the subject level.
+Subject-wise split.
 
-No subject may appear in multiple splits.
+The same subject must not appear in multiple splits.
+
+## Raw Data
+
+Raw BIDMC data is not tracked by Git.

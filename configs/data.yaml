@@ -1,19 +1,38 @@
-sampling_rate: 125
+dataset:
+  name: BIDMC
+  sampling_rate: 125
 
-window:
-  seconds: 10
+signals:
+  input: PPG
+  target: ECG
+
+preprocessing:
+  mode: none
+  bandpass:
+    lowcut_hz: 0.5
+    highcut_hz: 20.0
+    filter_order: 4
+
+segmentation:
+  window_seconds: 10
   overlap: 0.5
+  window_samples: 1250
+  hop_samples: 625
 
 stft:
-  n_fft: 256
-  hop_length: 32
-  win_length: 128
+  representation: magnitude
+  sampling_rate: 125
   window: hann
+  nperseg: 64
+  noverlap: 32
+  nfft: 64
+  boundary: zeros
+  padded: true
 
-representation:
-  magnitude: true
-  power: false
-  log_transform: true
+split:
+  method: subject_wise
+  train_subjects: []
+  val_subjects: []
+  test_subjects: []
 
-normalization:
-  type: per_sample
+seed: 42

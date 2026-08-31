@@ -1,0 +1,12 @@
+experiment:
+	name: resunet_attention_l1_baseline
+	seed: 42
+
+training:
+	batch_size: 32
+	epochs: 100
+	learning_rate: 0.0002
+	optimizer: Adam
+
+loss:
+	name: L1
