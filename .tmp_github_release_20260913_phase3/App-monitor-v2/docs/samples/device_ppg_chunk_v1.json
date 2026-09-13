@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "stream_id": "verity-ppg-example",
+  "sequence_number": 0,
+  "configured_sample_rate_hz": 135.0,
+  "estimated_sample_rate_hz": 134.8,
+  "device_timestamp_end_ns": 700000000000000000,
+  "clock_domain": "verity-device-clock-example",
+  "ppg0": [501001, 501020, 501045, 501071],
+  "ppg1": [500997, 501017, 501041, 501068],
+  "ppg2": [501005, 501024, 501050, 501075],
+  "ambient0": [12001, 12002, 12001, 12003],
+  "sensor_disconnected": false,
+  "saturation": {},
+  "device_sqi": {
+    "skewness": 0.42,
+    "perfusion_index": 0.08,
+    "motion_level": 0.12,
+    "algorithm_version": "device-sqi-example",
+    "window_seconds": 5.0
+  },
+  "device_id_hash": "example-not-a-real-device-id",
+  "device_model": "Polar Verity Sense",
+  "firmware_version": "2.2.6",
+  "sdk_version": "example"
+}

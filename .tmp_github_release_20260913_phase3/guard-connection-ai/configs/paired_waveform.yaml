@@ -1,0 +1,10 @@
+dataset:
+  name: mimic_perform_paired_waveforms
+  root: data/MIMIC_PERform_Datasets
+
+split:
+  method: stratified_patient_kfold
+  n_splits: 5
+  seed: 42
+  validation_fold_offset: 1
+

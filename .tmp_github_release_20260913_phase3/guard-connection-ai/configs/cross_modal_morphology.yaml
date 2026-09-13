@@ -1,0 +1,32 @@
+dataset:
+  root: data/MIMIC_PERform_Datasets
+  sample_rate_hz: 125
+  ppg_context_seconds: 1.5
+  output_delay_seconds: 0.5
+  minimum_ppg_valid_fraction: 0.95
+  target_semantics: ppg_past_context_to_ecg_morphology_prior_latent
+
+model:
+  input_channels: 2
+  latent_dim: 16
+  base_channels: 24
+
+loss:
+  latent_nll_weight: 1.0
+  cosine_weight: 0.2
+  reconstruction_weight: 0.5
+
+training:
+  batch_size: 128
+  epochs: 8
+  learning_rate: 0.001
+  patience: 3
+  device: cpu
+  torch_threads: 12
+
+deployment:
+  morphology_confidence_threshold: 0.5
+  fallback: interval_template
+  display_delay_adds_seconds_before_r: true
+  diagnostic_ecg: false
+  p_wave_reconstruction_claim: false

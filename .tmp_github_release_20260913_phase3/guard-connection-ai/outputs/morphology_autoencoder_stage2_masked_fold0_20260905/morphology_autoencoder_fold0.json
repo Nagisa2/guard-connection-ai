@@ -1,0 +1,170 @@
+{
+  "test_fold": 0,
+  "validation_fold": 1,
+  "patients": {
+    "train": [
+      "p004829",
+      "p013072",
+      "p015852",
+      "p019608",
+      "p023824",
+      "p025117",
+      "p029512",
+      "p043613",
+      "p050089",
+      "p050384",
+      "p058932",
+      "p062160",
+      "p068956",
+      "p069339",
+      "p075371",
+      "p077729",
+      "p079998",
+      "p085866",
+      "p089565",
+      "p092289",
+      "p092846"
+    ],
+    "validation": [
+      "p016684",
+      "p022954",
+      "p055204",
+      "p081349",
+      "p087275",
+      "p087675",
+      "p094847"
+    ],
+    "test": [
+      "p000946",
+      "p026377",
+      "p026964",
+      "p063039",
+      "p063628",
+      "p075796",
+      "p097547"
+    ]
+  },
+  "beat_counts": {
+    "train": 38725,
+    "validation": 12269,
+    "test": 11169
+  },
+  "ecg_scaler": {
+    "center": 0.39501953125,
+    "scale": 0.20631884765625
+  },
+  "ecg_bandpass_hz": [
+    0.5,
+    35.0
+  ],
+  "beat_samples": 100,
+  "r_index": 20,
+  "neighboring_qrs_guard_seconds": 0.12,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "total": 0.1621283990125058,
+        "roi": 0.0629575077302926,
+        "derivative": 0.02295728056559419,
+        "multi_resolution_stft": 0.3477360972083441,
+        "latent_regularization": 0.7582265997110335
+      },
+      "validation": {
+        "total": 0.08992312798121323,
+        "roi": 0.022996271194036428,
+        "derivative": 0.015385192518200105,
+        "multi_resolution_stft": 0.23370734214161834,
+        "latent_regularization": 0.8074242303458353
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "total": 0.04683876214026421,
+        "roi": 0.00782993618743156,
+        "derivative": 0.006144633120934021,
+        "multi_resolution_stft": 0.14154139837317734,
+        "latent_regularization": 0.5511598285078609
+      },
+      "validation": {
+        "total": 0.05984951943779985,
+        "roi": 0.011933188541055037,
+        "derivative": 0.009067811238007076,
+        "multi_resolution_stft": 0.1710571777075529,
+        "latent_regularization": 0.6181307828519493
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "total": 0.03889273419951645,
+        "roi": 0.005479771841360447,
+        "derivative": 0.004577580439049763,
+        "multi_resolution_stft": 0.12268855784199026,
+        "latent_regularization": 0.4520327617036234
+      },
+      "validation": {
+        "total": 0.05373530380893499,
+        "roi": 0.009713162098099323,
+        "derivative": 0.00666719754250759,
+        "multi_resolution_stft": 0.16062990560506782,
+        "latent_regularization": 0.5310663842440894
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "total": 0.03648952340627267,
+        "roi": 0.004924746333212644,
+        "derivative": 0.004079314902357191,
+        "multi_resolution_stft": 0.11648475164824193,
+        "latent_regularization": 0.4039318414017706
+      },
+      "validation": {
+        "total": 0.05126288467242072,
+        "roi": 0.00894173608200314,
+        "derivative": 0.006017370914681426,
+        "multi_resolution_stft": 0.1552844540371249,
+        "latent_regularization": 0.491349710461994
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "total": 0.035190026961242404,
+        "roi": 0.00466383253562298,
+        "derivative": 0.0038340688435662008,
+        "multi_resolution_stft": 0.11295363648791518,
+        "latent_regularization": 0.3707508428065297
+      },
+      "validation": {
+        "total": 0.05074385256739333,
+        "roi": 0.00867584410783214,
+        "derivative": 0.005760420921433251,
+        "multi_resolution_stft": 0.15492636555184922,
+        "latent_regularization": 0.45620601042173803
+      }
+    }
+  ],
+  "test_loss": {
+    "total": 0.04276003330861303,
+    "roi": 0.005516878324587279,
+    "derivative": 0.004294817425860939,
+    "multi_resolution_stft": 0.13928827626461332,
+    "latent_regularization": 0.2736769544638016
+  },
+  "test_reconstruction": {
+    "r_aligned_mae": 0.06662900745868683,
+    "r_aligned_rmse": 0.11054577678442001,
+    "r_aligned_pearson": 0.9856164842014614,
+    "valid_samples": 1025678
+  },
+  "device": "cpu",
+  "max_batches_per_epoch": null,
+  "training_duration_seconds": 24.300524399848655,
+  "claims": "internal ECG morphology-prior training run",
+  "runtime_ppg_to_ecg_model": false,
+  "diagnostic_ecg": false,
+  "patient_specific_morphology_claim": false
+}

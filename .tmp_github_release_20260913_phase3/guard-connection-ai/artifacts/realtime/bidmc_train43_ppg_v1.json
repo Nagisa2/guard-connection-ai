@@ -1,0 +1,393 @@
+{
+  "af_model_connected": false,
+  "artifact_sha256": "5622709d9fec841d90d49a6b212ef8677a4f3b071aa4060e666b3870f66308c5",
+  "artifact_version": "sha256:5622709d9fec841d",
+  "clinically_validated": false,
+  "dataset": "BIDMC",
+  "expected_sample_rate_hz": 125.0,
+  "intended_use": "research_preprocessing_only",
+  "limitations": [
+    "BIDMC is not the target AF deployment population.",
+    "PAT and SQI thresholds are not clinically calibrated.",
+    "This artifact does not contain or validate an AF classifier."
+  ],
+  "profile_id": "bidmc_train43_ppg_v1",
+  "scaler": {
+    "center": 0.47801,
+    "finite_training_sample_count": 2580043,
+    "method": "median_mad_times_1.4826",
+    "scale": 0.16956496199999996
+  },
+  "schema_version": "1.0",
+  "signal_column": "PLETH",
+  "sources": [
+    {
+      "file_name": "bidmc_01_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "21495169cc36e82352d8e12cc6430927946d02d240b030715088d02396ea2d5c",
+      "subject_id": "bidmc01"
+    },
+    {
+      "file_name": "bidmc_02_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "cbe4cc6532df50aaa56382cc6348effc76ed2347f6562a590876a0dfb747e2ea",
+      "subject_id": "bidmc02"
+    },
+    {
+      "file_name": "bidmc_03_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "c8a642b9d5c0054d401489a96b050f8977890fa45c7ffe1f778bd32ce7086c53",
+      "subject_id": "bidmc03"
+    },
+    {
+      "file_name": "bidmc_05_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "1963671232fca4962400f660bcb437db3d53a414de2f9538ca423a67212112cf",
+      "subject_id": "bidmc05"
+    },
+    {
+      "file_name": "bidmc_07_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "eb58108883ba819b26eb80e1984e395b31b4cb7fb4c3341c84b733bff97d090f",
+      "subject_id": "bidmc07"
+    },
+    {
+      "file_name": "bidmc_08_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "3f2d0e9711ef2225e3ad3f25544140270ed88e34409ea456eb7c95a765ca69fc",
+      "subject_id": "bidmc08"
+    },
+    {
+      "file_name": "bidmc_09_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "512173b79872d29d3b572bcd3a7b91f69d331eb78fe580d82e3faecfda8dd04b",
+      "subject_id": "bidmc09"
+    },
+    {
+      "file_name": "bidmc_10_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "36b50117c1445d929f551ecdd1cb1d4f243ec78f687a253dea27a5046693d662",
+      "subject_id": "bidmc10"
+    },
+    {
+      "file_name": "bidmc_11_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "64b931ccd9f6b94b293a8ff0558eca000d32a8c5c790247c04e5a883b259200f",
+      "subject_id": "bidmc11"
+    },
+    {
+      "file_name": "bidmc_12_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "12b32c92e49c243ce8921b96ff25ac5fa0e6b22c7d1da289336893a3f7f6b32a",
+      "subject_id": "bidmc12"
+    },
+    {
+      "file_name": "bidmc_14_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "715637c6c00309746a57933d0074c3565257716521b46aa1810e0e2d91a8db93",
+      "subject_id": "bidmc14"
+    },
+    {
+      "file_name": "bidmc_15_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "61497ee21946cbef61bec9fe3fde83ea6299a73f675c6b7d9d9dac00e287abdd",
+      "subject_id": "bidmc15"
+    },
+    {
+      "file_name": "bidmc_16_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "cb2a73645b4e6ae9c7bbaad2edb2811664f1a66b51630e2111e1245422c6d0d5",
+      "subject_id": "bidmc16"
+    },
+    {
+      "file_name": "bidmc_17_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "35ee803bafd453f7d57756f0b7a3717367be84c986d20256240c11c81a68fa08",
+      "subject_id": "bidmc17"
+    },
+    {
+      "file_name": "bidmc_19_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "7a7750aec599b6e08406a823f30a1d4f3c3f1c88c7e9179790411e2e530b42e4",
+      "subject_id": "bidmc19"
+    },
+    {
+      "file_name": "bidmc_21_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "3c36c96d58803596222a1639d1c338fc758b4cfeb3ac75420ceea520fd30a206",
+      "subject_id": "bidmc21"
+    },
+    {
+      "file_name": "bidmc_22_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "3e40bf7b43a15c247023cce4ca02beff72b5e463b2680bd1f6c2e391de147f89",
+      "subject_id": "bidmc22"
+    },
+    {
+      "file_name": "bidmc_23_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "3cedad370183b86759024c4c8c02d317a04fd91291fd5470e8e18268349674a6",
+      "subject_id": "bidmc23"
+    },
+    {
+      "file_name": "bidmc_24_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "c7e6e56af3c822521c90769c427e97ebf98121cd1801f6f4dea3d09d963746e7",
+      "subject_id": "bidmc24"
+    },
+    {
+      "file_name": "bidmc_25_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "d6a98ad4acb9ca578e3b377d094b6a7892294e7e26c1d3c0135bd88520c6b755",
+      "subject_id": "bidmc25"
+    },
+    {
+      "file_name": "bidmc_26_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "97873512194c7ac28c9acf9a5574effbe1c52661ed15d70254956e6ce0790c69",
+      "subject_id": "bidmc26"
+    },
+    {
+      "file_name": "bidmc_27_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "161c7e5e03b146a25439db10364cdee262dc74f08509a8eedca397815c2bff64",
+      "subject_id": "bidmc27"
+    },
+    {
+      "file_name": "bidmc_28_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "730883ded213bc9665978fac63a333c0fc309dc3092609740a961f750a00fa46",
+      "subject_id": "bidmc28"
+    },
+    {
+      "file_name": "bidmc_29_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "66261436c7fce120f7195b8da1779c08c68331889e6a0230c89593ec77d0c5c4",
+      "subject_id": "bidmc29"
+    },
+    {
+      "file_name": "bidmc_30_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "6f3707fccfca8c0d5563ff11ab92581bc6eaedae0710a715ceca921be751dd6c",
+      "subject_id": "bidmc30"
+    },
+    {
+      "file_name": "bidmc_31_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "90087fd07a7bcb1a7cc552ac1d0a22f95cb451db19c4bb3d03cc336540df8197",
+      "subject_id": "bidmc31"
+    },
+    {
+      "file_name": "bidmc_32_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "f153d924d1971546a5f85b0e28bd41ca8c9362c08c00c0b7894b65710829fd2f",
+      "subject_id": "bidmc32"
+    },
+    {
+      "file_name": "bidmc_34_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "05c87d853d418719dca986f4a9d85d50f034c04caeaa843a063cca834ae570c8",
+      "subject_id": "bidmc34"
+    },
+    {
+      "file_name": "bidmc_35_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "f7073289b8cacd266a607f5c9759612177b0d3215a255e2ed2808b004db5d096",
+      "subject_id": "bidmc35"
+    },
+    {
+      "file_name": "bidmc_36_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "c70ee4544ecca539195a049726ad3e7e011cf62f3e54d7d1b2a177c8f0c24253",
+      "subject_id": "bidmc36"
+    },
+    {
+      "file_name": "bidmc_37_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "320fede399f3254c3ef3a723147ddcbe2048608d09b9ee8dd13e41037b0220c1",
+      "subject_id": "bidmc37"
+    },
+    {
+      "file_name": "bidmc_38_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "0f08d0cbe4acebc4eebd769f63a1ff7d12b9943133a3b5fb107c3f789cbfcdfe",
+      "subject_id": "bidmc38"
+    },
+    {
+      "file_name": "bidmc_39_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "7cc409e295b4860356c981220bd61a16aedd8e21ad296df14afa92b24ec29274",
+      "subject_id": "bidmc39"
+    },
+    {
+      "file_name": "bidmc_40_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "a9d2e881faf5d37489281a82cb0448e5f1f79085320d43f9299f5ab754f52b1e",
+      "subject_id": "bidmc40"
+    },
+    {
+      "file_name": "bidmc_41_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "371e0c0341d64fe318d33168bdad69a59f8a4aee5c61ea7d113b977f90e7b501",
+      "subject_id": "bidmc41"
+    },
+    {
+      "file_name": "bidmc_43_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "edc9396efbf3b52dcacbbceebea9decf0efaeca477f52155d74b28aff84f753f",
+      "subject_id": "bidmc43"
+    },
+    {
+      "file_name": "bidmc_45_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "64930be88fe712d4d06e96e04c4e91bd8fe6e47aea09ba444af20b9ed8510ccd",
+      "subject_id": "bidmc45"
+    },
+    {
+      "file_name": "bidmc_46_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "92e6901bc089185b302422db0c35a0a7c399cb5b171bfbb99524acfc18e80541",
+      "subject_id": "bidmc46"
+    },
+    {
+      "file_name": "bidmc_47_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "2d8033ad7b54b26c609781957c67a67f3d043253c33004bd3ed0470a98e4cc91",
+      "subject_id": "bidmc47"
+    },
+    {
+      "file_name": "bidmc_49_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "c48b1a023517c22a0e9619e506de8ec358934ef2aa742bccdf3e799d6eb68da4",
+      "subject_id": "bidmc49"
+    },
+    {
+      "file_name": "bidmc_50_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "f2bc29f02cd866c63c8c20bfc5ecf87d6dc966f75217c87eefe3346a4bb37bec",
+      "subject_id": "bidmc50"
+    },
+    {
+      "file_name": "bidmc_52_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "9f7b42a94b055d6debf94891c934188e962d6d112d73bbb1e0aca20da80d268f",
+      "subject_id": "bidmc52"
+    },
+    {
+      "file_name": "bidmc_53_Signals.csv",
+      "finite_ppg_sample_count": 60001,
+      "sample_count": 60001,
+      "sha256": "136fd7a958cbc591e636605f438d05fcfd68f10489fdd98062e8c06267587f19",
+      "subject_id": "bidmc53"
+    }
+  ],
+  "split": {
+    "excluded_validation_subjects": [
+      "bidmc04",
+      "bidmc06",
+      "bidmc13",
+      "bidmc18",
+      "bidmc20",
+      "bidmc33",
+      "bidmc42",
+      "bidmc44",
+      "bidmc48",
+      "bidmc51"
+    ],
+    "method": "subject_wise",
+    "seed": 42,
+    "split_file_sha256": "288f916855aff0b339a84277ec4f6bad7998ad2af3497c2d2d6b2b034d2b8cee",
+    "train_subjects": [
+      "bidmc01",
+      "bidmc02",
+      "bidmc03",
+      "bidmc05",
+      "bidmc07",
+      "bidmc08",
+      "bidmc09",
+      "bidmc10",
+      "bidmc11",
+      "bidmc12",
+      "bidmc14",
+      "bidmc15",
+      "bidmc16",
+      "bidmc17",
+      "bidmc19",
+      "bidmc21",
+      "bidmc22",
+      "bidmc23",
+      "bidmc24",
+      "bidmc25",
+      "bidmc26",
+      "bidmc27",
+      "bidmc28",
+      "bidmc29",
+      "bidmc30",
+      "bidmc31",
+      "bidmc32",
+      "bidmc34",
+      "bidmc35",
+      "bidmc36",
+      "bidmc37",
+      "bidmc38",
+      "bidmc39",
+      "bidmc40",
+      "bidmc41",
+      "bidmc43",
+      "bidmc45",
+      "bidmc46",
+      "bidmc47",
+      "bidmc49",
+      "bidmc50",
+      "bidmc52",
+      "bidmc53"
+    ]
+  },
+  "streaming": {
+    "display_delay_seconds": 0.5,
+    "pulse_arrival_seconds": 0.2,
+    "quality_window_seconds": 10.0
+  }
+}

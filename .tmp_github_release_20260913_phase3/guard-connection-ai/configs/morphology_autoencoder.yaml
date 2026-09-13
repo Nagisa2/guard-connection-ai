@@ -1,0 +1,34 @@
+dataset:
+  root: data/MIMIC_PERform_Datasets
+  sample_rate_hz: 125
+  ecg_bandpass_hz: [0.5, 35.0]
+  seconds_before_r: 0.16
+  seconds_after_r: 0.64
+  minimum_valid_fraction: 0.98
+  neighboring_qrs_guard_seconds: 0.12
+  target_semantics: r_aligned_ecg_morphology_prior_not_ppg_reconstruction
+
+model:
+  latent_dim: 16
+  base_channels: 16
+
+loss:
+  fft_sizes: [32, 64]
+  qrs_weight: 4.0
+  t_weight: 2.0
+  derivative_weight: 0.5
+  spectral_weight: 0.25
+  latent_weight: 0.001
+
+training:
+  batch_size: 128
+  epochs: 12
+  learning_rate: 0.001
+  patience: 3
+  device: cpu
+  torch_threads: 12
+
+claims:
+  diagnostic_ecg: false
+  p_wave_reconstruction_claim: false
+  patient_specific_morphology_claim: false

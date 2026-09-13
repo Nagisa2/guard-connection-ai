@@ -1,0 +1,183 @@
+{
+  "test_fold": 0,
+  "validation_fold": 1,
+  "patients": {
+    "train": [
+      "p004829",
+      "p013072",
+      "p015852",
+      "p019608",
+      "p023824",
+      "p025117",
+      "p029512",
+      "p043613",
+      "p050089",
+      "p050384",
+      "p058932",
+      "p062160",
+      "p068956",
+      "p069339",
+      "p075371",
+      "p077729",
+      "p079998",
+      "p085866",
+      "p089565",
+      "p092289",
+      "p092846"
+    ],
+    "validation": [
+      "p016684",
+      "p022954",
+      "p055204",
+      "p081349",
+      "p087275",
+      "p087675",
+      "p094847"
+    ],
+    "test": [
+      "p000946",
+      "p026377",
+      "p026964",
+      "p063039",
+      "p063628",
+      "p075796",
+      "p097547"
+    ]
+  },
+  "beat_counts": {
+    "train": 38587,
+    "validation": 12268,
+    "test": 11151
+  },
+  "ppg_scaler": {
+    "center": 0.525904203323558,
+    "scale": 0.2448067483180956
+  },
+  "morphology_checkpoint": "morphology_autoencoder_fold0.pt",
+  "morphology_checkpoint_test_reconstruction": {
+    "r_aligned_mae": 0.06662900745868683,
+    "r_aligned_rmse": 0.11054577678442001,
+    "r_aligned_pearson": 0.9856164842014614,
+    "valid_samples": 1025678
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "validation": {
+        "total": 0.6873316187411547,
+        "latent_nll": 0.20817288174293935,
+        "latent_cosine": 0.6429120556761821,
+        "reconstruction": 0.7011526447410384
+      }
+    },
+    {
+      "epoch": 1,
+      "train": {
+        "total": 0.264608196914196,
+        "latent_nll": -0.13249666298067334,
+        "latent_cosine": 0.6276289529555681,
+        "reconstruction": 0.5431581331009896
+      },
+      "validation": {
+        "total": 0.47111481335014105,
+        "latent_nll": 0.00683834664717627,
+        "latent_cosine": 0.6161943621312579,
+        "reconstruction": 0.6820751794924339
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "total": 0.2068676282435853,
+        "latent_nll": -0.18154781643881013,
+        "latent_cosine": 0.6188485871087637,
+        "reconstruction": 0.5292914492997113
+      },
+      "validation": {
+        "total": 0.9122812882997096,
+        "latent_nll": 0.4468278534283551,
+        "latent_cosine": 0.6201029848307371,
+        "reconstruction": 0.6828656721239289
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "total": 0.08568050098044193,
+        "latent_nll": -0.2669282199148804,
+        "latent_cosine": 0.5615176041394669,
+        "reconstruction": 0.4806103956028326
+      },
+      "validation": {
+        "total": 0.9629516539474329,
+        "latent_nll": 0.46143365622265264,
+        "latent_cosine": 0.7280301192464927,
+        "reconstruction": 0.7118239362413684
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "total": -0.07064661250406543,
+        "latent_nll": -0.374625020086864,
+        "latent_cosine": 0.48478373806208175,
+        "reconstruction": 0.41404331362010627
+      },
+      "validation": {
+        "total": 0.9657537954238554,
+        "latent_nll": 0.4608683478630458,
+        "latent_cosine": 0.7359779194618264,
+        "reconstruction": 0.7153797292460998
+      }
+    }
+  ],
+  "test_loss": {
+    "total": 0.2877811251038855,
+    "latent_nll": -0.15001175628805702,
+    "latent_cosine": 0.7837932631373405,
+    "reconstruction": 0.5620684461160139
+  },
+  "validation_evaluation": {
+    "learned_ppg_latent": {
+      "mae": 0.5451286435127258,
+      "rmse": 0.8726176619529724,
+      "pearson": 0.5112761078051217
+    },
+    "population_mean_latent": {
+      "mae": 0.5515678524971008,
+      "rmse": 0.9122447967529297,
+      "pearson": 0.44543918410431516
+    },
+    "latent_mae_mean": 0.4391084909439087,
+    "morphology_confidence_mean": 0.8702067136764526,
+    "valid_samples": 1050829
+  },
+  "test_evaluation": {
+    "learned_ppg_latent": {
+      "mae": 0.43476900458335876,
+      "rmse": 0.7653953433036804,
+      "pearson": 0.19003453620824218
+    },
+    "population_mean_latent": {
+      "mae": 0.36252889037132263,
+      "rmse": 0.6902358531951904,
+      "pearson": 0.1646983096405592
+    },
+    "latent_mae_mean": 0.4425468444824219,
+    "morphology_confidence_mean": 0.8625708222389221,
+    "valid_samples": 1023880
+  },
+  "selection_split": "validation",
+  "validation_candidate_selected": true,
+  "test_release_gate_passed": false,
+  "learned_morphology_selected": false,
+  "deployment_morphology_source": "population_mean_latent",
+  "device": "cpu",
+  "max_batches_per_epoch": null,
+  "training_duration_seconds": 29.181411900091916,
+  "runtime_ecg_input": false,
+  "diagnostic_ecg": false,
+  "generation_mode": "population_prior",
+  "patient_specific_morphology_claim": false,
+  "claims": "internal PPG-to-morphology-latent training run"
+}

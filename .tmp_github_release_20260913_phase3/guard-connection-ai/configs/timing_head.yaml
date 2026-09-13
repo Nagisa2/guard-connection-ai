@@ -1,0 +1,46 @@
+dataset:
+  root: data/MIMIC_PERform_Datasets
+  sample_rate_hz: 125
+  target_semantics: delayed_reference_r_event_teacher_not_runtime_ecg_input
+
+windowing:
+  window_seconds: 30
+  training_hop_seconds: 30
+  loss_warmup_seconds: 3
+
+alignment:
+  minimum_seconds: 0.08
+  maximum_seconds: 0.5
+  minimum_beats_per_recording: 20
+  minimum_recording_coverage: 0.6
+  upper_quantile: 0.95
+  output_delay_seconds: 0.5
+  output_delay_rationale: 教師で許容するPAT上限以上を確保して未来ECGを参照しない
+
+model:
+  input_channels: 2
+  hidden_channels: 24
+  dilation_cycle: [1, 2, 4, 8, 16, 32]
+  stacks: 2
+  kernel_size: 3
+
+loss:
+  focal_gamma: 2.0
+  dice_weight: 0.5
+
+training:
+  batch_size: 16
+  epochs: 8
+  learning_rate: 0.001
+  patience: 3
+  device: cpu
+  torch_threads: 12
+
+deployment:
+  event_threshold: 0.5
+  calibration_thresholds: [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+  event_tolerance_seconds: 0.1
+  refractory_seconds: 0.25
+  fallback: fixed_pat_pulse_tracker
+  waveform_type: ppg_derived_pseudo_ecg
+  diagnostic_ecg: false

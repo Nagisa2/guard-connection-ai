@@ -1,0 +1,1004 @@
+{
+  "release_scope": "contest_demo_source_and_runtime_models",
+  "excluded": [
+    "datasets",
+    "MLflow records",
+    "databases",
+    "personal and meeting documents",
+    "virtual environments",
+    "node_modules and build outputs",
+    "team handoff JSONL samples (shared separately as ZIP)"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 169,
+      "sha256": "e268013088e9d1518a332754e3d1dbc30a204de8bf9ec2fd47c3a2d17a067968"
+    },
+    {
+      "path": "App-monitor-v2/.gitignore",
+      "bytes": 169,
+      "sha256": "e268013088e9d1518a332754e3d1dbc30a204de8bf9ec2fd47c3a2d17a067968"
+    },
+    {
+      "path": "App-monitor-v2/backend/auth.py",
+      "bytes": 2797,
+      "sha256": "67ac70a48722fda7fccaed49bb8cd816350d12da95dde5f8b0f6b7c28bfb0aac"
+    },
+    {
+      "path": "App-monitor-v2/backend/care_event_routes.py",
+      "bytes": 3005,
+      "sha256": "5bc28c19db92a239f09067335241e26d5ec7f4fcdba9fe2e0c36528075c2aaed"
+    },
+    {
+      "path": "App-monitor-v2/backend/care_events.py",
+      "bytes": 14341,
+      "sha256": "fbd5904a85d81a56461d51f024030f157f5717b16a433457a2aac4dae83d0e72"
+    },
+    {
+      "path": "App-monitor-v2/backend/contest_demo_scenario.py",
+      "bytes": 17084,
+      "sha256": "a00ba39badda65dc51eecae438713aff0cd5988fb1e6f78eefcdd2856293dfd9"
+    },
+    {
+      "path": "App-monitor-v2/backend/crud.py",
+      "bytes": 4263,
+      "sha256": "137e1eb1988ca44e628cb98abbd0d36aff960284d405890508ab8c933e5a7a73"
+    },
+    {
+      "path": "App-monitor-v2/backend/demo_control.py",
+      "bytes": 5096,
+      "sha256": "ecbea558c94754dc8273d298cafa2bdc748a15ff1ff4fad4080c2f83ebf8fc19"
+    },
+    {
+      "path": "App-monitor-v2/backend/demo_control_routes.py",
+      "bytes": 1311,
+      "sha256": "3c6d8111b260d17aa52d0e7f4d2517f0c5099d347c0418c712d9c1fc8d5764d4"
+    },
+    {
+      "path": "App-monitor-v2/backend/deployment_profiles.py",
+      "bytes": 5484,
+      "sha256": "b91dfc2c3bb061f827f35ef3e46c62ed8fccad85f139a9341e2004490c31a6db"
+    },
+    {
+      "path": "App-monitor-v2/backend/device_ppg_demo_sender.py",
+      "bytes": 7544,
+      "sha256": "29d944275c1eb956e72fde64cb2b5bb971c5adb7a7f8167dda4e84137c820dfe"
+    },
+    {
+      "path": "App-monitor-v2/backend/downstream_ai_client_example.py",
+      "bytes": 3000,
+      "sha256": "883806c018ff3f02b44c767dd0152d9c16f410dcc2f74679967fa08b5d4fe904"
+    },
+    {
+      "path": "App-monitor-v2/backend/downstream_inference_routes.py",
+      "bytes": 4680,
+      "sha256": "d69587404f7963985dfc8a496a6812689501d2efd87a2ea3957f857536fa2b64"
+    },
+    {
+      "path": "App-monitor-v2/backend/downstream_inferences.py",
+      "bytes": 9431,
+      "sha256": "668b2a70656b5bd1c180cfa2969c876a6dd6ca579ca81a67b243c57c92aab75d"
+    },
+    {
+      "path": "App-monitor-v2/backend/downstream_window_client_example.py",
+      "bytes": 4294,
+      "sha256": "078f9c0b2c654ba58eaa8892dae775d21ca6730acf2529f51165e9c453d0c2eb"
+    },
+    {
+      "path": "App-monitor-v2/backend/downstream_windows.py",
+      "bytes": 16233,
+      "sha256": "b7d080aa1ecc7b36562497bcfedfd896a1fe8be2b4b977bd6d557b52a022f88d"
+    },
+    {
+      "path": "App-monitor-v2/backend/gzip_request.py",
+      "bytes": 2814,
+      "sha256": "267fde2eddf2540a933968a4be1a09f36000699a5eab9d1722f2a367ad5fc586"
+    },
+    {
+      "path": "App-monitor-v2/backend/main.py",
+      "bytes": 25161,
+      "sha256": "53776e5ce0b56c4ca8739a28d4928a589bb7c02b1020dd87e6054284be4dbd7e"
+    },
+    {
+      "path": "App-monitor-v2/backend/models.py",
+      "bytes": 3704,
+      "sha256": "70b86a8cc8ab08600a68ed53e052af5dfe960eedfbe79572af05a7501a25ee41"
+    },
+    {
+      "path": "App-monitor-v2/backend/motion_ingress.py",
+      "bytes": 6036,
+      "sha256": "3f1aed3eca881e3a46a73ad37a59cdd09d58241632ea3c2841fed5dad534f3ab"
+    },
+    {
+      "path": "App-monitor-v2/backend/realtime_bridge.py",
+      "bytes": 4997,
+      "sha256": "d72b1ac0d0c46a7a8d5049bb7250c4a7facbccb74ce64c0eb23cddfb6805b69a"
+    },
+    {
+      "path": "App-monitor-v2/backend/realtime_routes.py",
+      "bytes": 15060,
+      "sha256": "bde47f81bdca8dc5dd602b6d8fc24dde4860ddea874c8f97446f139c26316898"
+    },
+    {
+      "path": "App-monitor-v2/backend/recorded_ppg_demo_sender.py",
+      "bytes": 5229,
+      "sha256": "1884b4645ca53143c8293e232a6bf434eb171a11d54652e3ee3d9dda08a85940"
+    },
+    {
+      "path": "App-monitor-v2/backend/requirements-stage4.txt",
+      "bytes": 32,
+      "sha256": "3dd8cd0986c7d628c9e6b30b58ef276cc4c6ee1b63d4b8ef6cdcfce2c6d4c681"
+    },
+    {
+      "path": "App-monitor-v2/backend/requirements.txt",
+      "bytes": 156,
+      "sha256": "77babaab50edc5c2e48916c2ced48acbf90961185d445613f641fea1352fb91a"
+    },
+    {
+      "path": "App-monitor-v2/backend/schemas.py",
+      "bytes": 14448,
+      "sha256": "4d8de5a3c425641a055cf59870f85907bbaa9f706f11f20ac4817b708c585144"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_care_events.py",
+      "bytes": 7560,
+      "sha256": "bcdb6075adcf23ab0b1f97d0043e2efe75500122dfa5dbc906e793fa25e78389"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_contest_demo_scenario.py",
+      "bytes": 2975,
+      "sha256": "7dcee1d9c90fe062b9c5bf27c981457b54853889d65d4dd97153a92763568c8b"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_demo_control.py",
+      "bytes": 1960,
+      "sha256": "2c7f0c944105282f5fbebd1a21f7d91567c830f8972db7226a17e7d54ab5eb0f"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_downstream_inferences.py",
+      "bytes": 14030,
+      "sha256": "187cf4cd86596e500fb928708ab0dbc3b84ce4421e7e3f97ae42d071ced3d2e7"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_downstream_window_client_example.py",
+      "bytes": 1061,
+      "sha256": "6623f47d6ec7df33dd1402dbc30293a9cd42aa87c57b40c1b52121c162f76cba"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_downstream_windows.py",
+      "bytes": 5983,
+      "sha256": "75f731e837f97e1e66227a12f4363710019b20087684e807756a2a99df6750bb"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_gzip_request.py",
+      "bytes": 1728,
+      "sha256": "b70d33ca95d6dff964afe3489397cfd36f1ca8391a998ac31a76d464104bbb54"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_integration_clients.py",
+      "bytes": 2076,
+      "sha256": "e0a497e4d06dd32a6bcc6dd862c2ee6e2a3764fec0f588b253bc80d0a9f1ed0a"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_motion_ingress.py",
+      "bytes": 2557,
+      "sha256": "36ed019c1389a8b7eeb0a774043014cc9f7c1799816442547f911bb61de63a7c"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_realtime_api.py",
+      "bytes": 14598,
+      "sha256": "75c37b5e3ec9c0c6dcf0b7c7703ea29422450b55eeaafdcf78363702b4c7616c"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_realtime_bridge.py",
+      "bytes": 2371,
+      "sha256": "5f42d0d1c87f67aedd90adcbf245819c99d2cec3cd1e2ff1f77a692335b1f941"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_recorded_ppg_demo_sender.py",
+      "bytes": 1545,
+      "sha256": "867d5770283dadca3626bc982b5199dda7bc6adfd18e4325e5180d157eaf0e35"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_sender.py",
+      "bytes": 9001,
+      "sha256": "acad2b1d5ff24cb45cc6cad07e7876f8d24cc95d8d950fe4aafe08ce97a0857c"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_system_status.py",
+      "bytes": 2116,
+      "sha256": "462c58ddb793350b0d9633e53aa2bcbd4a5e7ced7feab578090cca23a7e7b814"
+    },
+    {
+      "path": "App-monitor-v2/backend/test_test_sender.py",
+      "bytes": 1186,
+      "sha256": "8ed87d5ed0b0052ce9383f413e6c1468cc6588ddd635c86a33849e179f259647"
+    },
+    {
+      "path": "App-monitor-v2/backend/validate_device_payload.py",
+      "bytes": 1690,
+      "sha256": "268e4424a9173cc65913081194704076cd6558e12df1e1fc759b974f4fcd11b3"
+    },
+    {
+      "path": "App-monitor-v2/docs/DOWNSTREAM_AI_INGRESS_V1.md",
+      "bytes": 4133,
+      "sha256": "485ce9670ad6e3074f20e51c00c61956c1842313a003fe441e3bf23b19ff08c7"
+    },
+    {
+      "path": "App-monitor-v2/docs/samples/device_accelerometer_chunk_v1.json",
+      "bytes": 590,
+      "sha256": "8f6824407236039983de15d3574d335c513547545b9d9e8642ed07cdeb2b4976"
+    },
+    {
+      "path": "App-monitor-v2/docs/samples/device_gyroscope_chunk_v1.json",
+      "bytes": 479,
+      "sha256": "ea73823762b238004b5276162c7171ce79cf60d2420a147f6778551bca84e462"
+    },
+    {
+      "path": "App-monitor-v2/docs/samples/device_ppg_chunk_v1.json",
+      "bytes": 816,
+      "sha256": "50ed36d5065a3742462ebb9086632c923e2a982ffb2420eca7c623ff24d1cac5"
+    },
+    {
+      "path": "App-monitor-v2/docs/TEAM_INTEGRATION_CONTRACT.md",
+      "bytes": 8169,
+      "sha256": "ed15be7504b81179effd4277a36a5505729d34d86e1dfb8df9c10d5f023cfede"
+    },
+    {
+      "path": "App-monitor-v2/frontend/.env.example",
+      "bytes": 79,
+      "sha256": "2f14e962297abcca9dfad710c1d698b50fd8b1c17dd8ff6e76b0bc246d84620b"
+    },
+    {
+      "path": "App-monitor-v2/frontend/eslint.config.js",
+      "bytes": 758,
+      "sha256": "da0cbf3213f2994741024e2aa5165d017e0345f389dcd2f8a0db97fee7289d1b"
+    },
+    {
+      "path": "App-monitor-v2/frontend/index.html",
+      "bytes": 360,
+      "sha256": "67b571f16b69fd5e27feab5053d062dfae38e97ddb820f26881f05374582d2d7"
+    },
+    {
+      "path": "App-monitor-v2/frontend/package-lock.json",
+      "bytes": 115541,
+      "sha256": "132c4b71804074be878d4477855ea9c36599bd7592b90cea8a042280c29d098e"
+    },
+    {
+      "path": "App-monitor-v2/frontend/package.json",
+      "bytes": 720,
+      "sha256": "b2652c0fe5b38f836a37f5353f18d1820bc4e700c539509f66897aa4d94a1cc2"
+    },
+    {
+      "path": "App-monitor-v2/frontend/public/favicon.svg",
+      "bytes": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/App.css",
+      "bytes": 2891,
+      "sha256": "6e25a776d3e8102da5bacb3cb99f4a5fc662a2e01e6143140671a556d28c3d5c"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/App.jsx",
+      "bytes": 1129,
+      "sha256": "c8f0902cf4b7fae6f074d630f0a4741955a952cb7fa39833b896ea87ea2c4783"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/authStorage.js",
+      "bytes": 860,
+      "sha256": "8785cf39c72f86fff412ef1f5a33c541808d0162dab036c70e3374a6b8a796b8"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/authStorage.test.js",
+      "bytes": 1339,
+      "sha256": "bc92f2ef465193135249e4b03d568f4fc8b0bf64cad3dddf7acadbe8d079be8c"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/CareDemoPortal.jsx",
+      "bytes": 5200,
+      "sha256": "f91e165158737c850675f048d7d789e422f19312d041608de3d39a72ff1f7385"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/careEventProtocol.js",
+      "bytes": 3130,
+      "sha256": "7fb008863d0477af0a23f7468619511d150e5d9f2bb8c31959abdd64832561e1"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/careEventProtocol.test.js",
+      "bytes": 2415,
+      "sha256": "8c3d83c25aab951a78f9ef4965cfa48eb9452f3b1110ac92e2f5183c93b40c0d"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/carePortalProtocol.js",
+      "bytes": 1862,
+      "sha256": "42582c55f73b0e82802188a7b4ce9eb2f7ed74b18eb37eafeae1dca74b101aab"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/carePortalProtocol.test.js",
+      "bytes": 1984,
+      "sha256": "1552b822bef4ca5143481279d2aca5ac7dd9cab781291eb76f182b4c00035f9f"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/Dashboard.jsx",
+      "bytes": 64267,
+      "sha256": "8af3b3a9b4dfc70dd59dffb76a911b3e99a6b70e1a313431eca12d0d6e8d4d8a"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/DemoControlPortal.jsx",
+      "bytes": 10345,
+      "sha256": "8581f8346e95082ac7fb3d22f1b6259b4c90f1dc10fe4bf1b84f43aca1c34297"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/demoControlProtocol.js",
+      "bytes": 2212,
+      "sha256": "d7cee1355cffd2f372f2855fa935fb10e4754824e0a53d2226d36513eca5039b"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/demoControlProtocol.test.js",
+      "bytes": 2034,
+      "sha256": "fe80df172795fba11ce16f0b62c788f7309e4ac76f92a80480aa1c6240ff12c3"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/downstreamProtocol.js",
+      "bytes": 1864,
+      "sha256": "568ea0f76d2816dcf6ed4dca6045fef9d742fc2dc885b103e3244e96c9c247bf"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/downstreamProtocol.test.js",
+      "bytes": 1678,
+      "sha256": "9ac8833d0037520890692b249f134cefd343f6e0d0e84f86ad934ba04a42003a"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/EmergencyLocationPanel.jsx",
+      "bytes": 5376,
+      "sha256": "51898c19e66cad5b93da02baabe2042e2a3694b96a9a3e218a6929653ed4e316"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/EmergencyLocationPanel.test.js",
+      "bytes": 2105,
+      "sha256": "0c986c11d714a1719e3fc845fcff0552f1d55b0a252d71c44b7603d88f5d842b"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/emergencyLocationProtocol.js",
+      "bytes": 2055,
+      "sha256": "ec98dd952019e9ce70ef8587a271d82ffcec63cc863119dd4e6f18429b035f3f"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/HistoryTab.jsx",
+      "bytes": 6724,
+      "sha256": "b6711ce18565e3bae9824f917c778ff7f50b4749dc6001c5a1b247499980e26f"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/index.css",
+      "bytes": 2169,
+      "sha256": "fda85fffe7f006d822fb9ab4e774b9e2b8fadffa73a3806b038dc0b8456cbbeb"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/LoginPage.jsx",
+      "bytes": 3967,
+      "sha256": "8a25a8746d1f05faf1c926bc3eb770bbeb943d6c7407f3ebec7a85c4dcbb2488"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/main.jsx",
+      "bytes": 229,
+      "sha256": "4b4b864dbe45253425d0c925337180ec07e204295179f80f59551216f466f618"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/ProfileTab.jsx",
+      "bytes": 13604,
+      "sha256": "d7c5c105ad4a13170317aa806027f09e833823065e5a911c8c7d1e5a9e06624e"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/PseudoEcgSafetyPanel.js",
+      "bytes": 2808,
+      "sha256": "87a330c23b80732fc158dc869670fa5a3a498a90f74f40c72f524f21e4241784"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/PseudoEcgSafetyPanel.test.js",
+      "bytes": 1651,
+      "sha256": "533872e2f6e99374505e984a957a484b7108f633950332050757a71f6f666514"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/realtimeProtocol.js",
+      "bytes": 5594,
+      "sha256": "72bce841f1bc696ba8efaedfbb00d6810f68a9eb3a9f1eb650f18478e3852e12"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/realtimeProtocol.test.js",
+      "bytes": 5604,
+      "sha256": "4cbae605c86013a15631cc4c767659be1560b7cdc37e1ea3e3874a3747f08f76"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/waveformDisplay.js",
+      "bytes": 2171,
+      "sha256": "328307007941909471e2d2971145d6947a4d1fc64a1b47019264b6dfae17ff74"
+    },
+    {
+      "path": "App-monitor-v2/frontend/src/waveformDisplay.test.js",
+      "bytes": 2504,
+      "sha256": "8c06efd9dcd80c916dec903d2824d0e9e00d0f73cd3e6ff78372b9c200a9803a"
+    },
+    {
+      "path": "App-monitor-v2/frontend/vite.config.js",
+      "bytes": 161,
+      "sha256": "4d36db3522a7b2dd10e0936e1004373c7ee65f10f7cd7920cd76410459c15a45"
+    },
+    {
+      "path": "App-monitor-v2/MANUAL.md",
+      "bytes": 20484,
+      "sha256": "a75bde705ec0fe18db95e2e0b73f31189ff240549ed2ffb930f674737e588004"
+    },
+    {
+      "path": "App-monitor-v2/README.md",
+      "bytes": 552,
+      "sha256": "f1d56c087a876f7265ee288f7ebf5531eea6be664c6569fd451533b16aadae26"
+    },
+    {
+      "path": "App-monitor-v2/scripts/setup_demo_environment.ps1",
+      "bytes": 1801,
+      "sha256": "d423c22339bceea4a7c49a7a8cb10ebd4bdbdab15b1612f05fe66e5a1233846d"
+    },
+    {
+      "path": "App-monitor-v2/scripts/start_backend.ps1",
+      "bytes": 1107,
+      "sha256": "45fa840c1af94efc2a4143a0e5dca41e7ef802d806cbb4acc7a2f8f03d5c6457"
+    },
+    {
+      "path": "App-monitor-v2/scripts/start_contest_demo.ps1",
+      "bytes": 6602,
+      "sha256": "383cf620c3153f07a1726b39eca1c79555fe7d54da94e770b673c8276b11b7e9"
+    },
+    {
+      "path": "guard-connection-ai/.gitignore",
+      "bytes": 169,
+      "sha256": "e268013088e9d1518a332754e3d1dbc30a204de8bf9ec2fd47c3a2d17a067968"
+    },
+    {
+      "path": "guard-connection-ai/artifacts/realtime/bidmc_train43_ppg_v1.json",
+      "bytes": 12722,
+      "sha256": "478b1aa19e48103459fd805f11513a4d9115cd34d9b04637cf2a6bd033c1ae1f"
+    },
+    {
+      "path": "guard-connection-ai/configs/cross_modal_morphology.yaml",
+      "bytes": 671,
+      "sha256": "225b4598dde068cad33ec65248c76f33b8be6d2e9b84fce7ebeb483fc1d18d0f"
+    },
+    {
+      "path": "guard-connection-ai/configs/morphology_autoencoder.yaml",
+      "bytes": 696,
+      "sha256": "5a2708624f21265cc19ff0eacce3d940be5557651540abdbba40cd4744f003e2"
+    },
+    {
+      "path": "guard-connection-ai/configs/paired_waveform.yaml",
+      "bytes": 181,
+      "sha256": "41d0ea60a226c09afe3ab97bdba6e1dc5df760af82d853b68b84547194ce9433"
+    },
+    {
+      "path": "guard-connection-ai/configs/timing_head.yaml",
+      "bytes": 1041,
+      "sha256": "d544a71cdeeaa69d12008be76f9f4fc22fe622bc07f1d4d2baa7bb5f63a15785"
+    },
+    {
+      "path": "guard-connection-ai/docs/HANDOFF_DEVICE_PATIENT_APP.md",
+      "bytes": 1768,
+      "sha256": "f21ab6194e47ad665081f372f0dc8977743a2526eabb7f5db29305b7aa684a8a"
+    },
+    {
+      "path": "guard-connection-ai/docs/HANDOFF_DOWNSTREAM_AI.md",
+      "bytes": 4584,
+      "sha256": "8892e35b8d01d10d9a426c684c2c9d0e0319fe401d19193f84751363f57ab794"
+    },
+    {
+      "path": "guard-connection-ai/outputs/cross_modal_morphology_stage3_release_gated_fold0_20260906/cross_modal_morphology_fold0.json",
+      "bytes": 4899,
+      "sha256": "41c83d928b3b6a0d7d784c3c97fe749e578450707ba37196fa1afbaf4f4bf55e"
+    },
+    {
+      "path": "guard-connection-ai/outputs/cross_modal_morphology_stage3_release_gated_fold0_20260906/cross_modal_morphology_fold0.pt",
+      "bytes": 226485,
+      "sha256": "6f6963f131f2a085f348af649d368042b684c012d5b6f9e78233a5d5a8ff9595"
+    },
+    {
+      "path": "guard-connection-ai/outputs/morphology_autoencoder_stage2_masked_fold0_20260905/morphology_autoencoder_fold0.json",
+      "bytes": 4576,
+      "sha256": "cb8a4684f8d9b88d33dc0fa66fdedd6b5f9cbd730db4bf325492dcbbaa630439"
+    },
+    {
+      "path": "guard-connection-ai/outputs/morphology_autoencoder_stage2_masked_fold0_20260905/morphology_autoencoder_fold0.pt",
+      "bytes": 133305,
+      "sha256": "e3445a44b980410777b3dc9634a1a709a1196441f4e3e8b858c6712b4227895c"
+    },
+    {
+      "path": "guard-connection-ai/outputs/timing_head_stage1_fold0_20260905/timing_head_fold0.json",
+      "bytes": 3879,
+      "sha256": "a959145ea12df733cfe78d5ca6fa27077218d7a1239bdf976b71ce79d6b9de7d"
+    },
+    {
+      "path": "guard-connection-ai/outputs/timing_head_stage1_fold0_20260905/timing_head_fold0.pt",
+      "bytes": 198323,
+      "sha256": "3a15d5108ea2b88f5d673beab94bfd436d89f84a82b2b27b017c122b1c3fb67e"
+    },
+    {
+      "path": "guard-connection-ai/pyproject.toml",
+      "bytes": 861,
+      "sha256": "0eab0b687a9ffa01eed6a4ad0354451d2b26785c056535fae80c54cefa008e4c"
+    },
+    {
+      "path": "guard-connection-ai/README.md",
+      "bytes": 1008,
+      "sha256": "a9ca807136ee6804fdbe863fbbeb6dd57da13920c50cd4877f79dfded794f6c5"
+    },
+    {
+      "path": "guard-connection-ai/scripts/audit_yamaguchi_data.py",
+      "bytes": 669,
+      "sha256": "4f504c5ee9805075e592a53d57d0992f7e8c5a8281d873c36bdbef52eac22489"
+    },
+    {
+      "path": "guard-connection-ai/scripts/audit_yamaguchi_mat.py",
+      "bytes": 12774,
+      "sha256": "22e3946c39a357a3f31655eb8504fd7990809e0ee38af701affa1a28ad56fe56"
+    },
+    {
+      "path": "guard-connection-ai/scripts/benchmark_realtime.py",
+      "bytes": 1694,
+      "sha256": "ccd3831d05ea37909456c31f27822e6d394696934efcf52a1477932ced34f8a1"
+    },
+    {
+      "path": "guard-connection-ai/scripts/benchmark_stage4_hybrid.py",
+      "bytes": 2839,
+      "sha256": "026be0aa46111910200cdeee3a87180064d24b058003af8991eb84ae9fd5fde2"
+    },
+    {
+      "path": "guard-connection-ai/scripts/build_front_ai_handoff_package.py",
+      "bytes": 12662,
+      "sha256": "49783267c72f766d512cf23be5b813bac07d5994473cddea8029a2896ab6b73d"
+    },
+    {
+      "path": "guard-connection-ai/scripts/create_hybrid_waveform_comparison_video.py",
+      "bytes": 11157,
+      "sha256": "8f93d83a94fb44430452a26b9bf3449c35377f07a01e0807b053f7fe0f046b96"
+    },
+    {
+      "path": "guard-connection-ai/scripts/read_front_ai_handoff_sample.py",
+      "bytes": 1167,
+      "sha256": "c19a77b78074347f114bdeec0b175a9ccb3353f283930907cd3601f329a59b78"
+    },
+    {
+      "path": "guard-connection-ai/scripts/run_yamaguchi_partial_front_ai.py",
+      "bytes": 9426,
+      "sha256": "0d4395d7458245fb07179fe5eb02801031e1e1bc44b9e29086f8378533bbc519"
+    },
+    {
+      "path": "guard-connection-ai/scripts/train_cross_modal_morphology.py",
+      "bytes": 19006,
+      "sha256": "f79afb7ca951c094242ff9713215ec0c8f29a931c1d23eb00f4b06011210605c"
+    },
+    {
+      "path": "guard-connection-ai/scripts/train_morphology_autoencoder.py",
+      "bytes": 11700,
+      "sha256": "72aa6e174be3af5e1009c5c15a42e38171c862450c3cae68016a5d2902b1964b"
+    },
+    {
+      "path": "guard-connection-ai/scripts/train_timing_head.py",
+      "bytes": 12290,
+      "sha256": "d07a5be1999aafd25b86da773e14093addfc7afb40bb422d896dadd1a548966f"
+    },
+    {
+      "path": "guard-connection-ai/scripts/validate_stage4_demo.py",
+      "bytes": 7081,
+      "sha256": "f7c8972dbf22b2d5fdffb3f8f1316df31459de44d37562c0515fa9a70279028f"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/__init__.py",
+      "bytes": 65,
+      "sha256": "b209223d92a12ad8f5d037122b6aca4e387cfdecceec2e1c42fabd8fdd8ac1f2"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/af_dataset.py",
+      "bytes": 6912,
+      "sha256": "6313e9f8986d036986e3d4f2bfb9d6d232cc9160bf275b4ad10112c664481f2a"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/af_schema.py",
+      "bytes": 2756,
+      "sha256": "c12e196ac325bb683cc63927642664ef0d52d1499f11ad37fe517344658bf96a"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/af_split.py",
+      "bytes": 5299,
+      "sha256": "e509fcdce1999822c2b6e4b36e6e5f4ef9ef8086b7edb84c6480ccde02de9a53"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/causal_preprocessing.py",
+      "bytes": 3932,
+      "sha256": "5b472ccb5be8cfb9013ae941439455c23871693d880c2668a5fd9e20afc70be7"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/config.py",
+      "bytes": 1059,
+      "sha256": "ce91fc0f61150d638a56f282bec885243aa7f8b92022c36d6f44127afc0e1ca3"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/cross_modal_morphology_dataset.py",
+      "bytes": 3442,
+      "sha256": "b83a20db5a0d0213764a38d6c2ea2c27f7dd9b90a1a7c24d8bc39ee96c3756fe"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/dataset.py",
+      "bytes": 4285,
+      "sha256": "9b8665ff7888b3a47837735a9ee97c73e83c14f2230414385c989eb4e16a214d"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/json_metadata.py",
+      "bytes": 1921,
+      "sha256": "23023d3bc4c3aab3df79844cdff055dbdfcaf024d735adaf80426eb6cdde02f5"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/mimic_perform_af.py",
+      "bytes": 4979,
+      "sha256": "4fa11b946b7e156ca183c593abf3e3681f12c291fe21b63cc4ca35b5b9a86fa0"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/morphology_dataset.py",
+      "bytes": 6716,
+      "sha256": "9b98244013b516d5d44a6b59a5a06e85f18ddc3b3251e5cbb49fbd9b1154fc3e"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/preprocessing.py",
+      "bytes": 1686,
+      "sha256": "e6a5cbc89db054030f91cbaeb29e2716d33842e40de362e12545f666dda6ded2"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/segmentation.py",
+      "bytes": 3586,
+      "sha256": "a32e53981704c9e71acc48fb1a0989c5bffa6be84ad4d747dc4b775fa9fc667e"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/split.py",
+      "bytes": 2865,
+      "sha256": "07eddbb776e2c6d94b04e976f9af805ce0dbb4e5ad544aee235321c6448544fd"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/stft.py",
+      "bytes": 7109,
+      "sha256": "c7e9c055d4a01d0ccca36248957738949c83df5a7583806f3a58c014a75b1dd8"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/timing_dataset.py",
+      "bytes": 4158,
+      "sha256": "e6cbd865b462574740b634529a54c7bc17e92a917325cc71e428993d269ad78b"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/timing_targets.py",
+      "bytes": 4090,
+      "sha256": "a79c30788a55aa2c74931ac931cea0806fa3984b78e7b8734b76be4b75049190"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/data/yamaguchi_json.py",
+      "bytes": 8207,
+      "sha256": "cc89137b19bf69a91c889ea0baa2bef50a123505ea69623c69a65c01a0602d33"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/deployment/__init__.py",
+      "bytes": 51,
+      "sha256": "5f8f1232bbea6b4179b12453cb6b745eaa6aa2523605de870d08fc6065ead21d"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/deployment/morphology_checkpoint.py",
+      "bytes": 5918,
+      "sha256": "cb7062f7647591927f35841fc698fe6f72b86b973df59175b5dc87455ff8f638"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/deployment/profile_artifact.py",
+      "bytes": 4135,
+      "sha256": "f925b4e400a2e628913f1299e571f347ecd90b75650d3778036006eb37426cba"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/deployment/timing_checkpoint.py",
+      "bytes": 3771,
+      "sha256": "3ae59cff9794c3b39c1c9820bb956b77cb45b79f0e2f2cf22cd337a1bfa993ba"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/evaluation/__init__.py",
+      "bytes": 72,
+      "sha256": "335932db630da65659164e73c3902718b72074684dab2a44484d9372d97cb46e"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/features/__init__.py",
+      "bytes": 58,
+      "sha256": "624a19463a038131547c22ac2f1835301c6442b3f3e6ba73b129f07cff033c27"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/features/pulse_interval_representation.py",
+      "bytes": 2750,
+      "sha256": "f70ed1e1b9981cca726012b3fac0272c67d0a9f98f503bd95a36cafcb2ae034b"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/features/rhythm.py",
+      "bytes": 7212,
+      "sha256": "a14ab82e620766e39900712e28e8c3222c0af3707350f4ece38f1e0bf3ece1a9"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/losses/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/losses/cross_modal_morphology.py",
+      "bytes": 2224,
+      "sha256": "3fc53a5b5aadc153e46b5d8efd21c09fc3b777490f6df92fd063055c592cde69"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/losses/morphology.py",
+      "bytes": 3885,
+      "sha256": "9bf444ee77e7cd0ec0c0d581ed320718b64fa1de76e75029b82f1a0d25545718"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/losses/reconstruction.py",
+      "bytes": 3736,
+      "sha256": "fadb85926e13d9d4c427ade0c7ae82a3665f34a1e4d0f1f1eccd5cb50bdbbc0d"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/losses/timing.py",
+      "bytes": 1707,
+      "sha256": "97dadb10e583eabb91262ca4fa85dc708fbe51a3dd93f14e4cdf7f95cd411685"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/losses/waveform_generation.py",
+      "bytes": 4299,
+      "sha256": "45dd751462d4ac3ace61b8f4bdd6215c3068745635ab85ae53a04cbcab2a20c8"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/metrics/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/metrics/image_metrics.py",
+      "bytes": 1149,
+      "sha256": "314b59c277e672a4e7f81575dc0d4229d351109c90c20595d4747fda9aacc22b"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/metrics/pulse_arrival.py",
+      "bytes": 4197,
+      "sha256": "6da3c1f6dfe66bc51840da5296d6a120a1fc0d63d3215231238ff3d25324c014"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/metrics/signal_metrics.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/metrics/timing.py",
+      "bytes": 6715,
+      "sha256": "bf8b900e462c76e6de135a58427ceb9af4c44cf6180a8b9df535da5e89470f51"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/metrics/waveform_generation.py",
+      "bytes": 7092,
+      "sha256": "184c15533827bef7e06b5e6b5f4a5d8968019234f26594ae99418dde16e59dcd"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/causal_generator.py",
+      "bytes": 5083,
+      "sha256": "1af767e2c9158edc3a5c18d30563bf02b458658fa1ca003c837cfff748ffc791"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/morphology_autoencoder.py",
+      "bytes": 2388,
+      "sha256": "488964e99ef51b8917a2c38c156f800cce894458145e989d825a80f290d5da3f"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/ppg_morphology_encoder.py",
+      "bytes": 2871,
+      "sha256": "3b827eff8591305363fd729b1b0b1c592f0c1c5338b0aa967a7ef59f834f963e"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/resunet_attention.py",
+      "bytes": 2457,
+      "sha256": "03a15b48058fe551ad15499a5205bc00fa8a61a40200fbea81816543b414564c"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/timing_head.py",
+      "bytes": 2929,
+      "sha256": "5a53238d5da296be3f81f7ad975dc6e233fb789c5e2759d6e17751a1756e3739"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/models/unet.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/quality/ppg_sqi.py",
+      "bytes": 3086,
+      "sha256": "c665ef733abdb26dc9fb757f031c6b6eb01d5eeb970a8ae99bc36bd03caccf57"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/schemas/device_ppg.py",
+      "bytes": 3724,
+      "sha256": "d1c66df1458cc3338bacd8b49224b2e137a5c16e10bb7cf7a3e71dfca317ac9d"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/schemas/front_ai_outputs.py",
+      "bytes": 7226,
+      "sha256": "3cbe732c5b82f08458b406a3b25da82708c18ad68d4b18f03a42f989f991b8db"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/schemas/realtime_waveform.py",
+      "bytes": 1857,
+      "sha256": "833ad56d74386e8914fab27090d468fa9e5f0cc43936e81147969a3f2627f7c6"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/constrained_morphology_renderer.py",
+      "bytes": 9966,
+      "sha256": "75a81dccbfb41d3b1f300f79727e38fde0fdff15f64bf34daa0822bd45c3a0d4"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/device_ppg_ingress.py",
+      "bytes": 7951,
+      "sha256": "722c01e448cb67f99ee70302ab3d351e894c31aa7a7d240d2c5faaa0b64f8534"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/learned_pseudo_ecg.py",
+      "bytes": 3113,
+      "sha256": "75e3ba345b80cfb370ae7ca3beb1958f5d755d5395d704e23a3c3a4484b4cae0"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/pulse_tracker.py",
+      "bytes": 3103,
+      "sha256": "528b6c75390868eee2fcc339a6db1ad92340bc24ef98b447099965205df3699a"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/realtime_api.py",
+      "bytes": 16185,
+      "sha256": "cb25a63df7e4c7460544db61fb3efdf54bd6e27cd37203f58653af47d798b1bd"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/realtime_hybrid_session.py",
+      "bytes": 8572,
+      "sha256": "07f323c7cbd439476af04134b123cfb6a3215ec32966691acc499ed36fed2eab"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/realtime_session.py",
+      "bytes": 7833,
+      "sha256": "9b4ba9becb29804c9777a7fa47c69a148ba12f1b20c15bcc622c783e4768d553"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/streaming/timing_decoder.py",
+      "bytes": 2067,
+      "sha256": "eee65d226e97ae71df35271aaa07f9ad3fc38fdff894dfee8a0b8be807f7bf0e"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/utils/logger.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/utils/seed.py",
+      "bytes": 382,
+      "sha256": "f34ab079087eb62874758c136030b78e5bb41cae424abb97aae9a72e2abf7d7b"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/visualization/pseudo_ecg_renderer.py",
+      "bytes": 3476,
+      "sha256": "0abbaee88842d2473d9a2597b02535cbe2c10a8c7cc714630e1b0e80c3d33c9c"
+    },
+    {
+      "path": "guard-connection-ai/src/guard_connection_ai/visualization/timing_template_renderer.py",
+      "bytes": 2527,
+      "sha256": "354b9713e5d763a85543a0d58957b6807946e545a46541cfa7d73efda1aaed71"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_causal_generator.py",
+      "bytes": 5140,
+      "sha256": "ad0c28411d8a4258d5866a4e44dc1f27a9e90dca8194c519659d28a20ff69621"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_constrained_morphology_renderer.py",
+      "bytes": 3615,
+      "sha256": "fc5c78f14f6a754afe6407798850be1767f9ae2349b92bb5d367d45a728e5689"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_cross_modal_morphology.py",
+      "bytes": 2152,
+      "sha256": "4a3d5633bfe86f6b69878c8e185fc49d582d23ac9f5f2f666990b9b166210af3"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_deployment_profile_artifact.py",
+      "bytes": 1660,
+      "sha256": "a1d34d33e4013076d6f60bb9ecf0a4ceffb39dbe25fa16965e6d105100715c29"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_device_ppg_ingress.py",
+      "bytes": 5877,
+      "sha256": "9d837a12be4e0b32a196856a0616044f978ded6b70c52ea9afb8fbdecb5ec60a"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_front_ai_outputs.py",
+      "bytes": 3392,
+      "sha256": "d609c2cfc567aec9c8d0fd2ab6e65bfccad91d4527586fe5b65a88408d9ada36"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_morphology_autoencoder.py",
+      "bytes": 3422,
+      "sha256": "2b6ac0455012f2dfc75dafc980cc5958256fb02a807aff5af6d94313677bb844"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_morphology_checkpoint.py",
+      "bytes": 4694,
+      "sha256": "30137992c33ccef1cfed84a4e7a03569e88340dc570460ad87ec15110667715c"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_ppg_sqi.py",
+      "bytes": 1094,
+      "sha256": "1ddc515ce67d2fe4a4be309fe2f96a37bf9310949bacaa9637fccb2d895fc4d9"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_pulse_arrival.py",
+      "bytes": 1757,
+      "sha256": "9475d686e889ed1e1fbee65fc6d450f4c10151a715f162ad7b70768ed11337ca"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_realtime_api.py",
+      "bytes": 8477,
+      "sha256": "5b369fcfbfbef93a021a7908bd49869d05fb438c3fca4cc8f76539779266679f"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_realtime_hybrid_session.py",
+      "bytes": 5190,
+      "sha256": "292c20005e90faa452c14aa2a935e4e1d5dc129303bef539b56fef6774fcf837"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_realtime_pseudo_ecg.py",
+      "bytes": 6733,
+      "sha256": "47d1b6b15b9a130faccf55be56042ba1dea3ad493fc42bf69d5bcfa8c9fa58de"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_timing_checkpoint.py",
+      "bytes": 2630,
+      "sha256": "13c253f8f00ba2a9c178776bef3aea9e8ce114865d1f544e3c835782b0c27b7d"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_timing_head.py",
+      "bytes": 6884,
+      "sha256": "f50990fc296d5bbb856c39978bcd5514385bc209deaa9d027e1042cc3660f0c5"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_waveform_generation_metrics.py",
+      "bytes": 2220,
+      "sha256": "f8c7136ebb38f259f06e53f0d9203f66020756b08878ddee1bfe7dc8b6fb6f8c"
+    },
+    {
+      "path": "guard-connection-ai/tests/test_yamaguchi_json.py",
+      "bytes": 2521,
+      "sha256": "06be6dfb9e6a9f5f482d1aebf715a2c1dac89b97446cf0ac8dbdf2d1589e69aa"
+    },
+    {
+      "path": "guard-connection-ai/uv.lock",
+      "bytes": 224709,
+      "sha256": "234470963920b21d751155226cc7d934ad8dfd223543a212ece093ba523243e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1850,
+      "sha256": "d1dd8a42b374fb3ff068faef9a1cdaf8bfc707a4c2eeb8016ccf82b8a52a439f"
+    }
+  ]
+}

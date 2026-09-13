@@ -1,0 +1,160 @@
+{
+  "test_fold": 0,
+  "validation_fold": 1,
+  "patients": {
+    "train": [
+      "p004829",
+      "p013072",
+      "p015852",
+      "p019608",
+      "p023824",
+      "p025117",
+      "p029512",
+      "p043613",
+      "p050089",
+      "p050384",
+      "p058932",
+      "p062160",
+      "p068956",
+      "p069339",
+      "p075371",
+      "p077729",
+      "p079998",
+      "p085866",
+      "p089565",
+      "p092289",
+      "p092846"
+    ],
+    "validation": [
+      "p016684",
+      "p022954",
+      "p055204",
+      "p081349",
+      "p087275",
+      "p087675",
+      "p094847"
+    ],
+    "test": [
+      "p000946",
+      "p026377",
+      "p026964",
+      "p063039",
+      "p063628",
+      "p075796",
+      "p097547"
+    ]
+  },
+  "ppg_scaler": {
+    "center": 0.525904203323558,
+    "scale": 0.2448067483180956
+  },
+  "pulse_arrival_estimate": {
+    "median_seconds": 0.16,
+    "upper_quantile_seconds": 0.36479999999999974,
+    "interquartile_range_seconds": 0.096,
+    "matched_beats": 11598,
+    "recording_estimates": 15,
+    "total_recordings": 21,
+    "recording_coverage": 0.7142857142857143
+  },
+  "output_delay_seconds": 0.5,
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "total": 0.4745968962615391,
+        "focal_bce": 0.06404808908700943,
+        "dice": 0.8210976135055974
+      },
+      "validation": {
+        "total": 0.4630277752876282,
+        "focal_bce": 0.0602986142039299,
+        "dice": 0.8054583238230811
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "total": 0.39358860029364534,
+        "focal_bce": 0.05258259479448481,
+        "dice": 0.6820120080462042
+      },
+      "validation": {
+        "total": 0.4379388789335887,
+        "focal_bce": 0.07978043601744705,
+        "dice": 0.716316882106993
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "total": 0.3687550824768138,
+        "focal_bce": 0.058325551028521556,
+        "dice": 0.6208590673950484
+      },
+      "validation": {
+        "total": 0.45370595653851825,
+        "focal_bce": 0.07166387130402857,
+        "dice": 0.7640841702620188
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "total": 0.35307361298012285,
+        "focal_bce": 0.0552920049653863,
+        "dice": 0.595563218278705
+      },
+      "validation": {
+        "total": 0.46162042684025234,
+        "focal_bce": 0.09513282662050591,
+        "dice": 0.7329751915401883
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "total": 0.3534354747466321,
+        "focal_bce": 0.05813526488700003,
+        "dice": 0.590600421968496
+      },
+      "validation": {
+        "total": 0.453979245490498,
+        "focal_bce": 0.08609289913955662,
+        "dice": 0.7357726991176605
+      }
+    }
+  ],
+  "test_losses": {
+    "total": 0.3555018785927031,
+    "focal_bce": 0.04644548691188296,
+    "dice": 0.6181127793259091
+  },
+  "calibrated_event_threshold": 0.5,
+  "validation_event_metrics": {
+    "precision": 0.7737839924508879,
+    "recall": 0.7360261117911057,
+    "f1": 0.7544329207092673,
+    "timing_mae_seconds": 0.024620842572062082,
+    "rr_mae_seconds": 0.02596986338450491,
+    "true_events": 12255,
+    "predicted_events": 11657,
+    "matched_events": 9020
+  },
+  "test_event_metrics": {
+    "precision": 0.9442242094588366,
+    "recall": 0.9179887066415703,
+    "f1": 0.9309216506089802,
+    "timing_mae_seconds": 0.027331380589728567,
+    "rr_mae_seconds": 0.020883070641676223,
+    "true_events": 11157,
+    "predicted_events": 10847,
+    "matched_events": 10242
+  },
+  "device": "cpu",
+  "max_batches_per_epoch": null,
+  "training_duration_seconds": 172.90775560005568,
+  "claims": "internal timing-head training run",
+  "runtime_ecg_input": false,
+  "diagnostic_ecg": false
+}

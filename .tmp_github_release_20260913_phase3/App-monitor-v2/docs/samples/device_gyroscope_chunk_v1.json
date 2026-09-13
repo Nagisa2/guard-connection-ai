@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "stream_id": "verity-gyroscope-example",
+  "sequence_number": 0,
+  "sensor_type": "gyroscope",
+  "units": "deg/s",
+  "configured_sample_rate_hz": 52.0,
+  "device_timestamp_end_ns": 700000000000000000,
+  "clock_domain": "verity-device-clock-example",
+  "x": [0.1, 0.2, 0.1],
+  "y": [-0.1, 0.0, 0.1],
+  "z": [0.0, 0.1, 0.0],
+  "sensor_disconnected": false,
+  "device_id_hash": "example-not-a-real-device-id",
+  "device_model": "Polar Verity Sense"
+}
